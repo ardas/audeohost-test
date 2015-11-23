@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction) launchButton:(id)sender;
+
+@property (weak) IBOutlet UITextField *urlTextField;
 
 @end
 
